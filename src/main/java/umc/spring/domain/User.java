@@ -18,7 +18,6 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import umc.spring.domain.common.BaseEntity;
-import umc.spring.domain.mapping.UserMission;
 import umc.spring.enums.Gender;
 import umc.spring.enums.MemberStatus;
 import umc.spring.enums.SocialType;
@@ -54,6 +53,9 @@ public class User extends BaseEntity {
     @Column(nullable = false)
     private Integer point;
 
+    @Column(nullable = false)
+    private String phoneNumber;
+
     @Enumerated(EnumType.STRING)
     private Gender gender;
 
@@ -64,7 +66,7 @@ public class User extends BaseEntity {
     private SocialType socialType;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    private List<UserMission> userMissions = new ArrayList<>();
+    private List<Mission> userMissions = new ArrayList<>();
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<Inquiry> inquiries = new ArrayList<>();
