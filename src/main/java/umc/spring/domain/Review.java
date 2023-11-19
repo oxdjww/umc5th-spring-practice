@@ -42,4 +42,7 @@ public class Review extends BaseEntity {
 
     @ManyToOne
     private Store store;
+
+    @ManyToOne
+    private User user;
 }
