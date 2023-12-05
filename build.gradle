@@ -8,7 +8,7 @@ group = 'umc'
 version = '0.0.1-SNAPSHOT'
 
 java {
-	sourceCompatibility = '11'
+	sourceCompatibility = '17'
 }
 
 configurations {
@@ -30,6 +30,10 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+	implementation 'org.springdoc:springdoc-openapi-ui:1.6.15'
+	implementation 'io.springfox:springfox-swagger2:2.9.2'
+	implementation 'io.springfox:springfox-swagger-ui:2.9.2'
 }
 
 tasks.named('test') {
