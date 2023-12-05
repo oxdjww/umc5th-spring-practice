@@ -65,9 +65,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "project.structure.proportion": "0.15234375",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.editor",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -95,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701776557152</updated>
-      <workItem from="1701776558602" duration="4426000" />
+      <workItem from="1701776558602" duration="6858000" />
     </task>
     <servers />
   </component>
